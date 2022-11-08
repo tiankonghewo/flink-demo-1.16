@@ -1,2 +1,14 @@
+# Built application files and Maven
+target/
 *.class
 *.log
+*.iml
+/.idea/
+/out/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+

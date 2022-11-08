@@ -1,0 +1,9 @@
+package foo.bar;
+option java_package = "com.example.foo.bar";
+option java_outer_classname = "HelloWorldProto";
+
+message Person {
+  optional string name = 1;
+  optional int32 id = 2;
+  optional string email = 3;
+}
