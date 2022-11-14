@@ -1,6 +1,7 @@
 package org.example
 import com.google.gson.Gson
 import com.mysql.cj.jdbc.MysqlXADataSource
+import org.apache.flink.api.common.eventtime.WatermarkStrategy
 import org.apache.flink.api.common.serialization.SimpleStringSchema
 import org.apache.flink.connector.base.DeliveryGuarantee
 import org.apache.flink.connector.jdbc.internal.options.JdbcConnectorOptions
